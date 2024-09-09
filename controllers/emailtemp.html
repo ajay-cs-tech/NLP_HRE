@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .header {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+        .work-details {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .work-details p {
+            margin: 10px 0;
+        }
+        .work-details span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>New Work Assignment Notification</h1>
+        </div>
+        <div class="content">
+            <p>Hello <span>{{assigned_to}}</span>,</p>
+            <p>You have been assigned new work. Below are the details:</p>
+            <div class="work-details">
+                <p><span>Work ID:</span> {{work_id}}</p>
+                <p><span>Title:</span> {{work_title}}</p>
+                <p><span>Description:</span> {{work_description}}</p>
+                <p><span>Assigned By:</span> {{assigned_by}}</p>
+                <p><span>Start Time:</span> {{start_time}}</p>
+                <p><span>End Time:</span> {{end_time}}</p>
+                <p><span>Due Date:</span> {{due_date}}</p>
+            </div>
+            <p>Please ensure that the work is completed by the due date.</p>
+            <p>If you have any questions or need further clarification, feel free to reach out.</p>
+            <p>Best regards,</p>
+            <p><span>{{assigned_by}}</span></p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
