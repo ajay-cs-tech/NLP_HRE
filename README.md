@@ -76,6 +76,7 @@
 Here are some screenshots of the NLP_HRE application:
 
 ![Login Screen](./login.png)
+![Dashboard](./dashboard.png)
 ![Call Feature](./call.png)
 
 ## Contribution
