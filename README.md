@@ -83,7 +83,7 @@ Here are some screenshots of the NLP_HRE application:
 Feel free to fork the repository and submit pull requests for any improvements or new features.
 
 
-![Uploading call.png…]()
+
 
 
 
