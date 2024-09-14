@@ -1,4 +1,4 @@
-![login](https://github.com/user-attachments/assets/ac504137-6004-48d8-8a55-6f43f292d142)# NLP_HRE: Voice Bot for Employee Management
+# NLP_HRE: Voice Bot for Employee Management
 
 ## Overview
 
